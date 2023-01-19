@@ -25,6 +25,7 @@ setup(
         "Topic :: Scientific/Engineering"],
     provides=["sirad"],
     install_requires=[
+        "pathlib2",
         "openpyxl",
         "pandas",
         "PyYAML",
